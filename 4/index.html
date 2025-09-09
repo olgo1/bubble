@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тренажёр</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+<body>
+
+    <div class="trainer-container">
+        <h1 id="trainer-title"></h1>
+        <p id="trainer-subtitle"></p>
+        
+        <div class="info-bar">
+            <div id="timer">00:00</div>
+        </div>
+        
+        <div id="problems-container"></div>
+        
+        <div class="actions">
+            <button id="rerollBtn">Другие задания</button>
+            <button id="checkBtn">Проверить</button>
+        </div>
+        
+        <div id="results" class="hidden">
+            <p id="score-text"></p>
+            <button id="printBtn">Скачать PDF с ответами</button>
+        </div>
+    </div>
+
+    <script src="trainer.js" defer></script>
+
+</body>
+</html>
