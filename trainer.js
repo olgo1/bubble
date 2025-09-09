@@ -130,7 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (state.isFinished) return;
             state.isFinished = true;
             elements.checkBtn.disabled = true;
-            elements.rerollBtn.disabled = true;
             let correctCount = 0;
             for (const task of state.tasks) {
                 const userAnswer = task.input.value.trim();
