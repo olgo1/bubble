@@ -6,6 +6,7 @@ const trainerSettings = {
     totalTime: 900 
 };
 
+
 // --- УТИЛИТЫ ---
 const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 const getRandomElement = (arr) => arr[getRandomInt(0, arr.length - 1)];
