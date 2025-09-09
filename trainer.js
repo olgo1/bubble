@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // --- НОВЫЙ КОД НАЧИНАЕТСЯ ЗДЕСЬ ---
         const userAnswerText = task.input.value.trim(); // Получаем ответ ученика
-        const userAnswerLine = `Ответ ученика: ${userAnswerText || 'нет ответа'}`; // Формируем строку
+        const userAnswerLine = `Ваш ответ: ${userAnswerText || 'нет ответа'}`; // Формируем строку
         // --- НОВЫЙ КОД ЗАКАНЧИВАЕТСЯ ---
         
         const answer = `Правильный ответ: ${correctAnswerText}`;
